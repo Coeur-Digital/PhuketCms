@@ -1,7 +1,7 @@
-import React from 'react'
-import styled from 'styled-components'
-import { Link } from 'gatsby-plugin-intl'
-import Language from '../language'
+import React from "react";
+import styled from "styled-components";
+import { Link } from "gatsby-plugin-intl";
+import Language from "../language";
 
 const NavItem = styled(Link)`
   font-weight: 800;
@@ -10,7 +10,7 @@ const NavItem = styled(Link)`
   padding: 2vh 1.2vw;
 
   &:hover {
-    color: #ff0066;
+    color: #215cec;
     &::after {
       width: 100%;
     }
@@ -23,17 +23,17 @@ const NavItem = styled(Link)`
     postion: absolute;
     top: 10vh;
   }
-`
+`;
 const NavbarLinks = () => {
   return (
     <>
-      <NavItem to="/">About</NavItem>
+      <NavItem to="/offers-web-agency-thailand">Offers</NavItem>
       <NavItem to="/404">Services</NavItem>
       <NavItem to="/">Gallery</NavItem>
       <NavItem to="/404">Contact</NavItem>
       <Language />
     </>
-  )
-}
+  );
+};
 
-export default NavbarLinks
+export default NavbarLinks;

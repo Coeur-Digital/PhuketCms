@@ -1,5 +1,5 @@
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -13,8 +13,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: 'Poppins', Sans-serif;
+h6,
+p {
+  font-family: "Poppins", Sans-serif;
 }
 .navbar {
   width: 100%;
@@ -50,11 +51,18 @@ h6 {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #fff;
+  background-color: #fff !important;
 }
 .scrolled a {
   color: black;
 }
 .logo img {
   width: 50px;
+}
+.polygone {
+  /*Chrome,Safari*/
+  -webkit-clip-path: polygon(-3px 424px, 965px 420px, 961px 298px, 0px 405px);
+
+  /*Firefox*/
+  clip-path: url("#clipPolygon");
 }

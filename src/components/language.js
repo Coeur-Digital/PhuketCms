@@ -1,11 +1,11 @@
-import React from 'react'
-import { IntlContextConsumer, changeLocale } from 'gatsby-plugin-intl'
+import React from "react";
+import { IntlContextConsumer, changeLocale } from "gatsby-plugin-intl";
 
 const languageName = {
-  en: 'English',
-  ko: '한국어',
-  de: 'Deutsch',
-}
+  en: "En",
+  fr: "Fr",
+  th: "Th"
+};
 
 const Language = () => {
   return (
@@ -17,11 +17,12 @@ const Language = () => {
               key={language}
               onClick={() => changeLocale(language)}
               style={{
-                color: currentLocale === language ? `red` : `pink`,
+                color: currentLocale === language ? `#215cec` : `#0836A8`,
                 margin: 10,
-                fontSize: 13,
+                fontSize: 12,
                 textDecoration: `none`,
                 cursor: `pointer`,
+                fontWeight: `800`
               }}
             >
               {languageName[language]}
@@ -30,7 +31,7 @@ const Language = () => {
         }
       </IntlContextConsumer>
     </div>
-  )
-}
+  );
+};
 
-export default Language
+export default Language;
