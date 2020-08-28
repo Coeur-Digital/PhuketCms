@@ -1,4 +1,5 @@
 import React from "react";
+import { FormattedMessage } from "gatsby-plugin-intl";
 import { Grid, Col, Row } from "react-styled-flexboxgrid";
 import styled from "styled-components";
 const ServH2gold = styled.h2`
@@ -19,7 +20,8 @@ const SectionThreeHome = () => {
         <Row>
           <Col xs={12} md={12}>
             <ServH2gold>
-              Timeline of your website building &amp; optimization
+              {" "}
+              <FormattedMessage id="home.s3headingh2" />
             </ServH2gold>
           </Col>
         </Row>

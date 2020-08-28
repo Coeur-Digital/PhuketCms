@@ -1,8 +1,8 @@
 import React from "react";
+import { FormattedMessage } from "gatsby-plugin-intl";
 import { Grid, Col, Row } from "react-styled-flexboxgrid";
 import styled from "styled-components";
 import { Link } from "gatsby";
-import { FormattedMessage } from "gatsby-plugin-intl";
 
 const PaddingHome = styled.div`
   margin: 10vh 0 6vh;
@@ -48,7 +48,6 @@ const SectionTwoHome = () => {
             </Col>
             <Col xs={12} sm={12} md={6} lg={6}>
               <YellowH2>
-                {" "}
                 <FormattedMessage id="home.s2headingh2" />
               </YellowH2>
               <BlackUl>
@@ -62,7 +61,6 @@ const SectionTwoHome = () => {
                   <FormattedMessage id="home.s2headingli3" />
                 </BlackLi>
                 <BlackLi>
-                  {" "}
                   <FormattedMessage id="home.s2headingli4" />
                 </BlackLi>
               </BlackUl>

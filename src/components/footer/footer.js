@@ -12,7 +12,7 @@ const ImgFooter = styled.img`
   float: right;
 `;
 const RightP = styled.p`
-  text-allign: right;
+  float: right;
 `;
 const FooterLink = styled(Link)`
   text-decoration: none;
@@ -56,7 +56,7 @@ const Footer = () => {
             </FooterLink>
           </Col>
           <Col xs={12} md={6}>
-            <p>Phuket Cms</p>
+            <RightP>Phuket Cms</RightP>
             <ImgFooter src="https://res.cloudinary.com/insidebox/image/upload/v1596384334/Gatsby/logo-light.png" />
           </Col>
         </Row>

@@ -3,7 +3,7 @@ import { Grid, Col, Row } from "react-styled-flexboxgrid";
 import styled from "styled-components";
 import { DesignServices } from "@styled-icons/material";
 const BgWeb = styled.div`
-  background: url("https://res.cloudinary.com/insidebox/image/upload/v1598071468/PhuketCms/web-agency-thailand.jpg")
+  background: url("https://res.cloudinary.com/insidebox/image/upload/q_auto/v159807146/PhuketCms/web-agency-thailand.jpg")
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;

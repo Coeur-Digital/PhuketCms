@@ -1,4 +1,5 @@
 import React from "react";
+import { FormattedMessage } from "gatsby-plugin-intl";
 import { Grid, Col, Row } from "react-styled-flexboxgrid";
 import styled from "styled-components";
 import { CodeWorking } from "@styled-icons/ionicons-solid";
@@ -65,18 +66,14 @@ const SectionFourHome = () => {
                 icon={<HomeInfoCircle />}
               >
                 <H3TimeWhite className="vertical-timeline-element-title">
-                  Gather Information
+                  <FormattedMessage id="home.s4headingh3" />
                 </H3TimeWhite>
                 <h4 className="vertical-timeline-element-subtitle">
-                  Find the website frameworks that fits your needs
+                  <FormattedMessage id="home.s4headingh4" />
                 </h4>
                 <p>
-                  There are too many possibility wordpress, prestashop, custom
-                  development platforms available in the markets. We find for
-                  you the best easy to use platforms, framework. Some of the
-                  tools are expensive while others are affordable. So, let’s
-                  list some of the best tools and their features for your online
-                  store development.
+                  {" "}
+                  <FormattedMessage id="home.s4headingp" />
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -86,15 +83,15 @@ const SectionFourHome = () => {
                 icon={<HomeDrawPolygon />}
               >
                 <H3Time className="vertical-timeline-element-title">
-                  wireframe creation
+                  <FormattedMessage id="home.s4headingh3_2" />
+                  creation
                 </H3Time>
                 <h4 className="vertical-timeline-element-subtitle">
-                  With Search engine optimization in mind
+                  <FormattedMessage id="home.s4headingh4_2" />
                 </h4>
                 <p>
-                  With the scope well-defined, we can start digging into the
-                  sitemap, defining how the content and features we defined in
-                  scope definition will interrelate.
+                  {" "}
+                  <FormattedMessage id="home.s4headingp_1" />
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -104,18 +101,13 @@ const SectionFourHome = () => {
                 icon={<HomePen />}
               >
                 <H3Time className="vertical-timeline-element-title">
-                  Content Creation
+                  <FormattedMessage id="home.s4headingh3_3" />
                 </H3Time>
                 <h4 className="vertical-timeline-element-subtitle">
-                  Writting content, picture, video , competitive research &amp;
-                  strategic research
+                  <FormattedMessage id="home.s4headingh4_3" />
                 </h4>
                 <p>
-                  Now that we have a bigger picture of the site in mind, we can
-                  start creating content for the individual pages, always
-                  keeping search engine optimization (SEO) in mind to help keep
-                  pages focused on a single topic. It's vital that you have real
-                  content to work with for our next stage:
+                  <FormattedMessage id="home.s4headingp_2" />
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -125,16 +117,14 @@ const SectionFourHome = () => {
                 icon={<HomeImage />}
               >
                 <H3Time className="vertical-timeline-element-title">
-                  Visual elements
+                  <FormattedMessage id="home.s4headingh3_4" />
                 </H3Time>
                 <h4 className="vertical-timeline-element-subtitle">
-                  Find or create the best content for your needs
+                  <FormattedMessage id="home.s4headingh4_4" />
                 </h4>
                 <p>
-                  With the site architecture and some content in place, we can
-                  start working on the visual brand. We call it the first
-                  painting. All our website are build with code optimization in
-                  mind
+                  {" "}
+                  <FormattedMessage id="home.s4headingp_4" />
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -144,16 +134,13 @@ const SectionFourHome = () => {
                 icon={<HomeBug />}
               >
                 <H3Time className="vertical-timeline-element-title">
-                  Debug session &amp; optimization
+                  <FormattedMessage id="home.s4headingh3_5" />
                 </H3Time>
                 <h4 className="vertical-timeline-element-subtitle">
-                  Online debugging
+                  <FormattedMessage id="home.s4headingh4_5" />
                 </h4>
                 <p>
-                  we analyze your code on a test server, this allows us to
-                  optimize your site to the maximum. this is what allows us to
-                  have incomparable performance. Our partners have extensive
-                  knowledge of servers and continuous integration.
+                  <FormattedMessage id="home.s4headingp_5" />
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -163,14 +150,13 @@ const SectionFourHome = () => {
                 icon={<HomeFacebook />}
               >
                 <H3Time className="vertical-timeline-element-title">
-                  Seo &amp; social media strategie
+                  <FormattedMessage id="home.s4headingh3_6" />
                 </H3Time>
                 <h4 className="vertical-timeline-element-subtitle">
-                  Content Marketing for Social Media,
+                  <FormattedMessage id="home.s4headingh4_6" />
                 </h4>
                 <p>
-                  Let’s propel yourself to the first places of google thanks to
-                  the keywords that we have defined together.
+                  <FormattedMessage id="home.s4headingp_6" />
                 </p>
               </VerticalTimelineElement>
             </VerticalTimeline>
