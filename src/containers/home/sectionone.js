@@ -3,6 +3,7 @@ import { Grid, Col, Row } from "react-styled-flexboxgrid";
 import styled from "styled-components";
 import scrollTo from "gatsby-plugin-smoothscroll";
 import { DownArrowAlt } from "@styled-icons/boxicons-regular";
+import { FormattedMessage } from "gatsby-plugin-intl";
 const BgRed = styled.div`
   background-color: rgb(248, 248, 248);
 `;
@@ -75,27 +76,25 @@ const SectionOneHome = () => {
           <Row>
             <Col xs={12} sm={12} md={6}>
               <YellowH1>
-                Wordpress Ecommerce &amp; All Major Cms in Phuket Thailand
+                <FormattedMessage id="home.headingh1" />
               </YellowH1>
               <BlackH2>
-                Phuket cms Web agency, we support our clients in the creation of
-                websites:
+                <FormattedMessage id="home.headingh2" />
                 <br /> <br />
               </BlackH2>
               <BlackH3>
-                Study, UX, conception, design, development, SEO. Our web agency
-                is able to meet all your needs and develop a real digital
-                strategy. <br />
-                We got Rewards for our know-how UX, technical and creative
+                <FormattedMessage id="home.headingh3" />
+                <br />
+                <FormattedMessage id="home.headingh3_2" />
               </BlackH3>
               <DisplayB>
                 <Button onClick={() => scrollTo("#ecommerce")}>
-                  Ecommerce
+                  <FormattedMessage id="home.headingbuttonone" />
                   <BlueArrowFromTop />
                 </Button>
 
                 <Button onClick={() => scrollTo("#website")}>
-                  Website
+                  <FormattedMessage id="home.headingbuttontwo" />
                   <BlueArrowFromTop />
                 </Button>
               </DisplayB>

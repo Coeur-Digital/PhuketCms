@@ -28,9 +28,6 @@ const NavbarLinks = () => {
   return (
     <>
       <NavItem to="/offers-web-agency-thailand">Offers</NavItem>
-      <NavItem to="/404">Services</NavItem>
-      <NavItem to="/">Gallery</NavItem>
-      <NavItem to="/404">Contact</NavItem>
       <Language />
     </>
   );

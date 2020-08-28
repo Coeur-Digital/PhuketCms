@@ -3,8 +3,7 @@ import { IntlContextConsumer, changeLocale } from "gatsby-plugin-intl";
 
 const languageName = {
   en: "En",
-  fr: "Fr",
-  th: "Th"
+  fr: "Fr"
 };
 
 const Language = () => {

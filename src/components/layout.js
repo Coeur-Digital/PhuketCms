@@ -10,9 +10,12 @@ import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 import { injectIntl } from "gatsby-plugin-intl";
 import { ThemeProvider } from "styled-components";
+import FreshChat from "react-freshchat";
 import "normalize.css";
 import "./layout.css";
 import Navbar from "./navbar/Navbar";
+import Footer from "./footer/footer";
+
 const theme = {
   flexboxgrid: {
     // Defaults
@@ -47,14 +50,12 @@ const Layout = ({ children, intl }) => {
   return (
     <>
       <Navbar siteTitle={intl.formatMessage({ id: "title" })} />
+      <FreshChat token="83dd2e66-e289-4709-9ba2-d2762377d3e9" />
       <ThemeProvider theme={theme}>
         <main>{children}</main>
       </ThemeProvider>
 
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
-      </footer>
+      <Footer />
     </>
   );
 };

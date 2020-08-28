@@ -19,9 +19,9 @@ const IndexPage = () => {
       />
       <SectionOneHome />
       <SectionTwoHome />
+      <SectionFiveHome />
       <SectionThreeHome />
       <SectionFourHome />
-      <SectionFiveHome />
     </Layout>
   );
 };
