@@ -60,6 +60,31 @@ module.exports = {
         redirectComponent: require.resolve(`./src/components/redirect.js`)
       }
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-173165114-4",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+
+        defer: true,
+        // Any additional optional fields
+        sampleRate: 5,
+        siteSpeedSampleRate: 10
+      }
+    },
+    {
+      resolve: "gatsby-plugin-matomo",
+      options: {
+        siteId: "2",
+        matomoUrl: "https://analytics.coeur-digital.com",
+        siteUrl: "https://phuketcms.com"
+      }
+    },
     "gatsby-plugin-robots-txt",
     `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality

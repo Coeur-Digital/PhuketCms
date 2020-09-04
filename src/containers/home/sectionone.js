@@ -16,8 +16,8 @@ const BgImg = styled.img`
     height: 65vh;
   }
 
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    height: 55vh;
+  @media (min-width: 725px) and (max-width: 1280px) {
+    height: 45vh;
   }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
     widht: auto;
