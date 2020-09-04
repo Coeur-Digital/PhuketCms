@@ -1,9 +1,10 @@
 import React from "react";
+import { FormattedMessage } from "gatsby-plugin-intl";
 import { Grid, Col, Row } from "react-styled-flexboxgrid";
 import styled from "styled-components";
-import { DesignServices } from "@styled-icons/material";
+
 const BgWeb = styled.div`
-  background: url("https://res.cloudinary.com/insidebox/image/upload/q_auto/v159807146/PhuketCms/web-agency-thailand.jpg")
+  background: url("https://res.cloudinary.com/insidebox/image/upload/c_scale,w_auto,dpr_auto,q_auto/v159807146/PhuketCms/web-agency-thailand.jpg")
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -48,10 +49,11 @@ const WebOne = () => {
         <Row>
           <Col xs={12} md={12}>
             <H1Web>
-              web offers and expertise
+              <FormattedMessage id="offer.expertise" />
+
               <br />
               <SpanH1Web>
-                Find all the expertise and service offers of our web agency.
+                <FormattedMessage id="offer.expertise_2" />
               </SpanH1Web>
             </H1Web>
           </Col>

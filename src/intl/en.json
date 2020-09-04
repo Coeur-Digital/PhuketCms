@@ -1,8 +1,8 @@
 {
-  "title": "Gatsby English",
-  "description": "Kick off your next, great Gatsby project with this default-starter-intl. This barebones starter ships with the main Gatsby configuration files you might need.",
-  "title_page2": "Page two",
-
+  "title": "Phuket Cms we build Wordpress, Ecommerce website & All Major Cms in Phuket Thailand",
+  "description": "We are SEO & SEA specialists based in Phuket Thailand. We master the Thailand market and we help you to reach your Thai and foreigner customers. Free quote & audit",
+  "title_agency": "Phuket Cms SEO Company based in Phuket, Thailand - 20 years worldwide experience",
+  "offers": "Offers",
   "home": {
     "headingh1": "Wordpress Ecommerce & All Major Cms in Phuket Thailand",
     "headingh2": "Phuket cms Web agency, we support our clients in the creation of websites:",
@@ -37,7 +37,7 @@
     "s2headingli21": "Creation of content (via our photo & video partners).",
     "s2headingli22": "Photos and videos: recommendations, briefs, adaptation of existing content for your marketing actions.",
     "s2headingli23": "Information systems and ERP: integration, development of suitable connectors, Flow and Process recommendations",
-    "s3headingh2": "Timeline of your website building &amp; optimization",
+    "s3headingh2": "Timeline of your website building & optimization",
     "s4headingh3": "Gather Information",
     "s4headingh4": "Find the website frameworks that fits your needs",
     "s4headingp": " There are too many possibility wordpress, prestashop, custom development platforms available in the markets. We find for you the best easy to use platforms, framework. Some of the tools are expensive while others are affordable. So, let’s list some of the best tools and their features for your online store development.",
@@ -64,13 +64,36 @@
     "s5homeh4_2": "Drupal",
     "s5homep_2": "Drupal is an open-source content manager (CMS) that allows you to build different types of sites. We use it to design community platforms, institutional sites, e-commerce sites (Drupal commerce), web apps for tablets, etc. The latter is used extensively by large state institutions, large companies or  innovative startups. Drupal is an ideal CMS for quickly designing content / product listings with smart filters (faceted search). The Drupal contributor community offers a huge library of free modules and themes. These allow an existing site to evolve without ”reinventing the wheel” in terms of functionality. More recently,  Drupal 8 (the most recent version of drupal) has been completely  redesigned to work with object classes. More specifically, it now accommodates in its core application all the power of the French PHP framework Symfony, a leader in the global technological landscape.",
     "s5homeh4_3": "WordPress",
-    "s5homep_3": "We are specialized in web development and webdesign, supports companies of all sizes in the realization of their website in WordPress. Our mission is to create an optimized and efficient site, adapted to your project. We carry out the design and / or development of the site. 100% of development is carried out in France by our experts. WordPress a powerful solution WordPress is the most widely used open-source content manager (CMS) for building websites. Our experts can extend its functionality with plugins to meet your needs. It can, for example, make it possible to create “One page” sites, advanced showcase sites, e-commerce sites (WooCommerce), etc. Our customers appreciate it because it offers an easy-to-use back office that allows you to contribute all kinds of content and finely manage users.",
+    "s5homep_3": "We are specialized in web development and webdesign, supports companies of all sizes in the realization of their website in WordPress. Our mission is to create an optimized and efficient site, adapted to your project. We carry out the design and / or development of the site. 100% of development is carried out in Thailand (phuket) by our experts. WordPress a powerful solution WordPress is the most widely used open-source content manager (CMS) for building websites. Our experts can extend its functionality with plugins to meet your needs. It can, for example, make it possible to create “One page” sites, advanced showcase sites, e-commerce sites (WooCommerce), etc. Our customers appreciate it because it offers an easy-to-use back office that allows you to contribute all kinds of content and finely manage users.",
     "s5homeh4_4": "Node JS",
     "s5homep_4": "Focused on performance and innovation, our agency sees Node.js as the future of programming. The combined use of Node.js and Express.js indeed makes it possible to rapidly develop entire websites. This framework is a real toolbox for developers who want to create a JavaScript website on both client and server side. By generating all the basic necessities at the start of an empty project and by providing all the directories and typical files to avoid the developer having to write them himself, the Express “generator” thus simplifies the creation of complex applications. For developers, the time savings is considerable. Express allows them to do everything that Node.js does, but by reducing the  number of lines of code. Express.js maps the URL in a template and populates the values ​​with data from a generic data store. This use of templates to create HTML greatly reduces the amount of input for the developer and thus speeds up agency work."
   },
+  "offer": {
+    "expertise": "web offers,expertise & SEO agency in phuket thailand",
+    "expertise_2": "Find all the expertise and service offers of our web agency.",
+    "favorite": "Our favorite solutions",
+    "rioh2": "RIO Convertion",
+    "riop": "Improve your conversion rate with our UX Design agency Why is it important to build a good user experience? Our answer: 10 seconds ... 10 seconds is the time it takes for a user to decide whether to leave or stay on a website. That's it!",
+    "rioh2_2": "Boost your positioning with our SEO agency",
+    "riop_2": "Whenever you create or want to create your site, you hear about `SEO`. If this notion seems fuzzy to you, SEO is an essential element for the success of your presence on the internet",
+    "rioh2_3": "Stay connected with our mobile development agency",
+    "riop_3": "The explosion in the use of smartphones for surfing the web since 2013 has put mobile development at the heart of web strategies. Today almost everyone has a mobile device. So it was only natural that the ...",
+    "rioh2_4": "Increase your sales thanks to our E-Commerce agency",
+    "riop_4": "From writing the specifications to the development of your project, our E-commerce Web agency supports you in your strategy by selecting the best open source technology. Our e-commerce experience at the service of your business",
+    "rioh2_5": "Develop your site with our Symfony & Wordpress Web agency",
+    "riop_5": "Expert in PHP development and in particular with the Symfony framework and Wordpress, our Web agency relies on Open Source solutions in order to offer you the most durable and flexible solutions for the development of your website.",
+    "rioh2_6": "Find reinforcement with our technical assistance agency",
+    "riop_6": "Our Web agency, with its many years of experience in the development of technical digital projects, also comes in another form: technical assistance. Technical assistance (or management), for Phuket CMS, is the basis.",
+    "rioh2_7": "Web Service Center",
+    "riop_7": "PhuketCms offers a comprehensive web service center offering that allows us to call on our different skills to answer to your Digital needs (advice, strategy, scripting, engineering, web design, web marketing, SEO.",
+    "rioh2_8": "Web hosting - Servers - Kubernetes",
+    "riop_8": " The Phuket Cms web agency offers it's clients to support them throughout the life of their site, including through hosting and outsourcing of their site. Hosting consists of storing the internet pages that make up your site on a secure server. Meet our partner"
+  },
 
   "notfound": {
-    "header": "NOT FOUND",
-    "description": "You just hit a route that doesn't exist... the sadness."
+    "oops": "Oops!",
+    "header": "404 - Page not found",
+    "description": " The page you are looking for might have been removed had its name changed or is temporarily unavailable.",
+    "link": "Go To Homepage"
   }
 }

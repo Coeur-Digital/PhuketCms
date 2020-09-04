@@ -25,7 +25,8 @@ const OfferWeb = ({ intl }) => (
         `web development phuket`,
         `seo phuket`,
         `seo agency phuket`,
-        `Ux design`
+        `Ux design`,
+        `thailand seo`
       ]}
     />
     <WebOne />

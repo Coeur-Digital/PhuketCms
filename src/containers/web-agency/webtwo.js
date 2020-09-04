@@ -1,4 +1,5 @@
 import React from "react";
+import { FormattedMessage } from "gatsby-plugin-intl";
 import { Grid, Col, Row } from "react-styled-flexboxgrid";
 import styled from "styled-components";
 import { DesignServices, DeveloperMode } from "@styled-icons/material";
@@ -102,90 +103,75 @@ const WebTwo = () => {
         <Row>
           <Col xs={12} md={6}>
             <WebDesignServices />
-            <YellowH2>RIO Convertion</YellowH2>
+            <YellowH2>
+              <FormattedMessage id="offer.rioh2" />
+            </YellowH2>
             <PwebTwo>
-              Improve your conversion rate with our UX Design agency Why is it
-              important to build a good user experience? Our answer: 10 seconds
-              ... 10 seconds is the time it takes for a user to decide whether
-              to leave or stay on a website. That&apos;s it!
+              <FormattedMessage id="offer.riop" />
             </PwebTwo>
           </Col>
           <Col xs={12} md={6}>
             <WebLineChart />
-            <YellowH2>Boost your positioning with our SEO agency</YellowH2>
+
+            <YellowH2>
+              <FormattedMessage id="offer.rioh2_2" />
+            </YellowH2>
             <PwebTwo>
-              Whenever you create or want to create your site, you hear about
-              "SEO". If this notion seems fuzzy to you, SEO is an essential
-              element for the success of your presence on the internet
+              <FormattedMessage id="offer.riop_2" />
             </PwebTwo>
           </Col>
           <Col xs={12} md={6}>
             <WebConnectWithoutContact />
             <YellowH2>
-              Stay connected with our mobile development agency
+              <FormattedMessage id="offer.rioh2_3" />
             </YellowH2>
             <PwebTwo>
-              The explosion in the use of smartphones for surfing the web since
-              2013 has put mobile development at the heart of web strategies.
-              Today almost everyone has a mobile device. So it was only natural
-              that the ...
+              <FormattedMessage id="offer.riop_3" />
             </PwebTwo>
           </Col>
           <Col xs={12} md={6}>
             <WebSalesforce />
             <YellowH2>
-              Increase your sales thanks to our E-Commerce agency
+              <FormattedMessage id="offer.rioh2_4" />
             </YellowH2>
             <PwebTwo>
-              From writing the specifications to the development of your
-              project, our E-commerce Web agency supports you in your strategy
-              by selecting the best open source technology. Our e-commerce
-              experience at the service of your business
+              <FormattedMessage id="offer.riop_4" />
             </PwebTwo>
           </Col>
           <Col xs={12} md={6}>
             <WebDeveloperMode />
             <YellowH2>
-              Develop your site with our Symfony &amp; Wordpress Web agency
+              <FormattedMessage id="offer.rioh2_5" />
             </YellowH2>
             <PwebTwo>
-              Expert in PHP development and in particular with the Symfony
-              framework and Wordpress, our Web agency relies on Open Source
-              solutions in order to offer you the most durable and flexible
-              solutions for the development of your website.
+              <FormattedMessage id="offer.riop_5" />
             </PwebTwo>
           </Col>
           <Col xs={12} md={6}>
             <WebAssistant />
             <YellowH2>
-              Find reinforcement with our technical assistance agency
+              <FormattedMessage id="offer.rioh2_6" />
             </YellowH2>
             <PwebTwo>
-              Our Web agency, with its many years of experience in the
-              development of technical digital projects, also comes in another
-              form: technical assistance. Technical assistance (or management),
-              for Phuket CMS, is the basis
+              <FormattedMessage id="offer.riop_6" />
             </PwebTwo>
           </Col>
           <Col xs={12} md={6}>
             <WebBadgeCheck />
-            <YellowH2>Web Service Center</YellowH2>
+            <YellowH2>
+              <FormattedMessage id="offer.rioh2_7" />
+            </YellowH2>
             <PwebTwo>
-              PhuketCms offers a comprehensive web service center offering that
-              allows us to call on our different skills to answer to your
-              Digital needs (advice, strategy, scripting, engineering, web
-              design, web marketing, SEO.
+              <FormattedMessage id="offer.riop_7" />
             </PwebTwo>
           </Col>
           <Col xs={12} md={6}>
             <WebKubernetes />
-            <YellowH2>Web hosting - Servers - Kubernetes</YellowH2>
+            <YellowH2>
+              <FormattedMessage id="offer.rioh2_8" />
+            </YellowH2>
             <PwebTwo>
-              The Phuket Cms web agency offers it&apos;s clients to support them
-              throughout the life of their site, including through hosting and
-              outsourcing of their site. Hosting consists of storing the
-              internet pages that make up your site on a secure server. Meet our
-              partner
+              <FormattedMessage id="offer.riop_8" />
               <LinkYellow
                 href="https://phuketserver.com"
                 target="_blank"

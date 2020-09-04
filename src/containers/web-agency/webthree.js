@@ -1,4 +1,5 @@
 import React from "react";
+import { FormattedMessage } from "gatsby-plugin-intl";
 import { Grid, Col, Row } from "react-styled-flexboxgrid";
 import styled from "styled-components";
 import { Wordpress } from "@styled-icons/boxicons-logos";
@@ -92,7 +93,9 @@ const WebThree = () => {
       <Row>
         <WrapSvg>
           <Col xs={12} md={12}>
-            <BlueH3>Our favorite solutions</BlueH3>
+            <BlueH3>
+              <FormattedMessage id="offer.favorite" />
+            </BlueH3>
 
             <YellowWordpress alt="Wordpress Development Phuket Thailand" />
             <YellowDrupal alt="Drupal Development Phuket Thailand" />

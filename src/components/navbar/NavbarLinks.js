@@ -1,4 +1,5 @@
 import React from "react";
+import { FormattedMessage } from "gatsby-plugin-intl";
 import styled from "styled-components";
 import { Link } from "gatsby-plugin-intl";
 import Language from "../language";
@@ -27,7 +28,9 @@ const NavItem = styled(Link)`
 const NavbarLinks = () => {
   return (
     <>
-      <NavItem to="/offers-web-agency-thailand">Offers</NavItem>
+      <NavItem to="/offers-web-agency-thailand">
+        <FormattedMessage id="offers" />
+      </NavItem>
       <Language />
     </>
   );
