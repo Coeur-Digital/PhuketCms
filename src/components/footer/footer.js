@@ -1,10 +1,8 @@
 import React from "react";
-import { Grid, Col, Row } from "react-styled-flexboxgrid";
+import { Grid, Box } from "react-raster";
 import styled from "styled-components";
 import { Link } from "gatsby";
-const FooterWrap = styled.footer`
-  padding: 8vh 0;
-`;
+
 const FooterH3 = styled.h3`
   color: rgb(33, 92, 236);
 `;
@@ -28,40 +26,46 @@ const FooterLink = styled(Link)`
 `;
 const Footer = () => {
   return (
-    <FooterWrap>
-      <Grid>
-        <Row>
-          <Col xs={12} md={6}>
-            <FooterH3>Our partners</FooterH3>
-            <FooterLink
-              to="https://phuketserver.com"
-              rel="noopener"
-              target="_blank"
-            >
-              Phuket Server
-            </FooterLink>
-            <FooterLink
-              to="https://coeur-digital.com"
-              rel="noopener"
-              target="_blank"
-            >
-              Coeur Digital
-            </FooterLink>
-            <FooterLink
-              to="https://ns1.com"
-              rel="noopener noreferrer nofollow"
-              target="_blank"
-            >
-              NsOne
-            </FooterLink>
-          </Col>
-          <Col xs={12} md={6}>
-            <RightP>Phuket Cms</RightP>
-            <ImgFooter src="https://res.cloudinary.com/insidebox/image/upload/v1596384334/Gatsby/logo-light.png" />
-          </Col>
-        </Row>
-      </Grid>
-    </FooterWrap>
+    <Grid
+      breakpoints={[0, 400, 800, 1200]}
+      colspan={6}
+      left={"2vw"}
+      right={"2vw"}
+      top={"8vw"}
+      bottom={"4vw"}
+      gutterX={"2vw"}
+      gutterY={"2vw"}
+      control
+    >
+      <Box cols={[6, 6, 3]}>
+        <FooterH3>Our partners</FooterH3>
+        <FooterLink
+          to="https://phuketserver.com"
+          rel="noopener"
+          target="_blank"
+        >
+          Phuket Server
+        </FooterLink>
+        <FooterLink
+          to="https://coeur-digital.com"
+          rel="noopener"
+          target="_blank"
+        >
+          Coeur Digital
+        </FooterLink>
+        <FooterLink
+          to="https://ns1.com"
+          rel="noopener noreferrer nofollow"
+          target="_blank"
+        >
+          NsOne
+        </FooterLink>
+      </Box>
+      <Box cols={[6, 6, 3]}>
+        <RightP>Phuket Cms</RightP>
+        <ImgFooter src="https://res.cloudinary.com/insidebox/image/upload/v1596384334/Gatsby/logo-light.png" />
+      </Box>
+    </Grid>
   );
 };
 

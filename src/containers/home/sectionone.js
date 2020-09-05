@@ -1,6 +1,6 @@
 import React from "react";
 import { FormattedMessage } from "gatsby-plugin-intl";
-import { Grid, Col, Row } from "react-styled-flexboxgrid";
+import { Grid, Box } from "react-raster";
 import styled from "styled-components";
 import scrollTo from "gatsby-plugin-smoothscroll";
 import { DownArrowAlt } from "@styled-icons/boxicons-regular";
@@ -72,37 +72,46 @@ const SectionOneHome = () => {
   return (
     <BgRed>
       <PaddingHome>
-        <Grid>
-          <Row>
-            <Col xs={12} sm={12} md={6}>
-              <YellowH1>
-                <FormattedMessage id="home.headingh1" />
-              </YellowH1>
-              <BlackH2>
-                <FormattedMessage id="home.headingh2" />
-                <br /> <br />
-              </BlackH2>
-              <BlackH3>
-                <FormattedMessage id="home.headingh3" />
-                <br />
-                <FormattedMessage id="home.headingh3_2" />
-              </BlackH3>
-              <DisplayB>
-                <Button onClick={() => scrollTo("#ecommerce")}>
-                  <FormattedMessage id="home.headingbuttonone" />
-                  <BlueArrowFromTop />
-                </Button>
+        <Grid
+          breakpoints={[0, 400, 800, 1200]}
+          colspan={12}
+          left={"2vw"}
+          right={"2vw"}
+          top={"2vw"}
+          bottom={"2vw"}
+          gutterX={"2vw"}
+          gutterY={"2vw"}
+          control
+        >
+          <Box cols={[12, 12, 6, 6]}>
+            <YellowH1>
+              <FormattedMessage id="home.headingh1" />
+            </YellowH1>
+            <BlackH2>
+              <FormattedMessage id="home.headingh2" />
+              <br /> <br />
+            </BlackH2>
+            <BlackH3>
+              <FormattedMessage id="home.headingh3" />
+              <br />
+              <FormattedMessage id="home.headingh3_2" />
+            </BlackH3>
+            <DisplayB>
+              <Button onClick={() => scrollTo("#ecommerce")}>
+                <FormattedMessage id="home.headingbuttonone" />
+                <BlueArrowFromTop />
+              </Button>
 
-                <Button onClick={() => scrollTo("#website")}>
-                  <FormattedMessage id="home.headingbuttontwo" />
-                  <BlueArrowFromTop />
-                </Button>
-              </DisplayB>
-            </Col>
-            <Col xs={12} sm={12} md={6}>
-              <BgImg src="https://res.cloudinary.com/insidebox/image/upload/v1596355026/Gatsby/hero.png" />
-            </Col>
-          </Row>
+              <Button onClick={() => scrollTo("#website")}>
+                <FormattedMessage id="home.headingbuttontwo" />
+                <BlueArrowFromTop />
+              </Button>
+            </DisplayB>
+          </Box>
+
+          <Box cols={[12, 12, 6, 6]}>
+            <BgImg src="https://res.cloudinary.com/insidebox/image/upload/v1596355026/Gatsby/hero.png" />
+          </Box>
         </Grid>
       </PaddingHome>
     </BgRed>

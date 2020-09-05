@@ -1,6 +1,6 @@
 import React from "react";
 import { FormattedMessage } from "gatsby-plugin-intl";
-import { Grid, Col, Row } from "react-styled-flexboxgrid";
+import { Grid, Box } from "react-raster";
 import styled from "styled-components";
 const ServH2gold = styled.h2`
   font-size: 1.6rem;
@@ -10,23 +10,26 @@ const ServH2gold = styled.h2`
   font-transform: capitalize;
   text-align: center;
 `;
-const PaddingHome = styled.div`
-  padding: 6vh 0;
-`;
+
 const SectionThreeHome = () => {
   return (
-    <PaddingHome>
-      <Grid>
-        <Row>
-          <Col xs={12} md={12}>
-            <ServH2gold>
-              {" "}
-              <FormattedMessage id="home.s3headingh2" />
-            </ServH2gold>
-          </Col>
-        </Row>
-      </Grid>
-    </PaddingHome>
+    <Grid
+      breakpoints={[0, 400, 800, 1200]}
+      colspan={12}
+      left={"2vw"}
+      right={"2vw"}
+      top={"6vw"}
+      bottom={"6vw"}
+      gutterX={"2vw"}
+      gutterY={"2vw"}
+      control
+    >
+      <Box cols={[12, 12, 12]}>
+        <ServH2gold>
+          <FormattedMessage id="home.s3headingh2" />
+        </ServH2gold>
+      </Box>
+    </Grid>
   );
 };
 

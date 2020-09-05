@@ -1,6 +1,6 @@
 import React from "react";
 import { FormattedMessage } from "gatsby-plugin-intl";
-import { Grid, Col, Row } from "react-styled-flexboxgrid";
+import { Grid, Box } from "react-raster";
 import styled from "styled-components";
 
 const BgWeb = styled.div`
@@ -45,19 +45,27 @@ const SpanH1Web = styled.span`
 const WebOne = () => {
   return (
     <BgWeb>
-      <Grid fluid>
-        <Row>
-          <Col xs={12} md={12}>
-            <H1Web>
-              <FormattedMessage id="offer.expertise" />
+      <Grid
+        breakpoints={[0, 400, 800, 1200]}
+        colspan={6}
+        left={"0vw"}
+        right={"0vw"}
+        top={"0vw"}
+        bottom={"0vw"}
+        gutterX={"0vw"}
+        gutterY={"0vw"}
+        control
+      >
+        <Box cols={[6, 6, 6]}>
+          <H1Web>
+            <FormattedMessage id="offer.expertise" />
 
-              <br />
-              <SpanH1Web>
-                <FormattedMessage id="offer.expertise_2" />
-              </SpanH1Web>
-            </H1Web>
-          </Col>
-        </Row>
+            <br />
+            <SpanH1Web>
+              <FormattedMessage id="offer.expertise_2" />
+            </SpanH1Web>
+          </H1Web>
+        </Box>
       </Grid>
     </BgWeb>
   );
