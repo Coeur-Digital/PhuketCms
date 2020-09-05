@@ -108,7 +108,6 @@ const WebThree = () => {
       gutterX={"2vw"}
       gutterY={"2vw"}
       alignY={"center"}
-      control
     >
       <Box cols={[12, 12, 12]}>
         <BlueH3>

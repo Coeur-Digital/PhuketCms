@@ -54,7 +54,6 @@ const WebOne = () => {
         bottom={"0vw"}
         gutterX={"0vw"}
         gutterY={"0vw"}
-        control
       >
         <Box cols={[6, 6, 6]}>
           <H1Web>

@@ -22,7 +22,6 @@ const SectionThreeHome = () => {
       bottom={"6vw"}
       gutterX={"2vw"}
       gutterY={"2vw"}
-      control
     >
       <Box cols={[12, 12, 12]}>
         <ServH2gold>

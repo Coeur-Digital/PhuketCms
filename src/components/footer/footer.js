@@ -35,7 +35,6 @@ const Footer = () => {
       bottom={"4vw"}
       gutterX={"2vw"}
       gutterY={"2vw"}
-      control
     >
       <Box cols={[6, 6, 3]}>
         <FooterH3>Our partners</FooterH3>

@@ -37,7 +37,6 @@ const SectionTwoHome = () => {
         bottom={"3vw"}
         gutterX={"2vw"}
         gutterY={"2vw"}
-        control
       >
         <Box cols={[12, 12, 12, 12]}>
           <FormattedMessage id="home.s2link_1" />

@@ -81,7 +81,6 @@ const SectionOneHome = () => {
           bottom={"2vw"}
           gutterX={"2vw"}
           gutterY={"2vw"}
-          control
         >
           <Box cols={[12, 12, 6, 6]}>
             <YellowH1>

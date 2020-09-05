@@ -38,7 +38,6 @@ const SectionFiveHome = () => {
       bottom={"3vw"}
       gutterX={"2vw"}
       gutterY={"2vw"}
-      control
     >
       <Box cols={[6, 6, 6]}>
         <ServH2gold>

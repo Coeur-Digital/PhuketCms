@@ -57,7 +57,6 @@ const SectionFourHome = () => {
         bottom={"2vw"}
         gutterX={"2vw"}
         gutterY={"2vw"}
-        control
       >
         {" "}
         <Box cols={[6, 6, 6]}>

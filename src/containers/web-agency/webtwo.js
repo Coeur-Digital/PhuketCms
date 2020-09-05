@@ -105,7 +105,6 @@ const WebTwo = () => {
       bottom={"7vw"}
       gutterX={"2vw"}
       gutterY={"2vw"}
-      control
     >
       <Box cols={[6, 6, 3]}>
         <WebDesignServices />
