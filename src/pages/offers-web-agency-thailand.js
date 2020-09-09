@@ -12,22 +12,7 @@ const OfferWeb = ({ intl }) => (
     <SEO
       lang={intl.locale}
       title={intl.formatMessage({ id: "title_agency" })}
-      keywords={[
-        `Wordpress`,
-        `ReactJs`,
-        `SEO`,
-        `Search Engine Optimisation`,
-        `magento`,
-        `Prestashop`,
-        `web agency`,
-        `web development`,
-        `web agency phuket`,
-        `web development phuket`,
-        `seo phuket`,
-        `seo agency phuket`,
-        `Ux design`,
-        `thailand seo`
-      ]}
+       keywords={intl.formatMessage({ id: 'keytwo' })}
     />
     <WebOne />
 
